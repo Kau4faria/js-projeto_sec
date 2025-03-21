@@ -13,11 +13,13 @@ function gerarNumeroAleatorio() {
 
 let numeroSecreto = gerarNumeroAleatorio
 
+
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag, texto);
     campo.innerHTML = texto;
 }
 
 function verificarChute() {
-    alert('apertou o botao');
+    let chute = parseInt(document.querySelector('input')).value
+    console.log(chute === numeroSecreto);
 }
