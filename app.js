@@ -38,3 +38,9 @@ function verificarChute() {
         }
     }
 }
+
+function ultimoNumero() {
+    let ultimoNumero = chute;
+    exibirTextoNaTela('h2', `seu ultimo numero foi ${ultimoNumero}`)
+
+}
